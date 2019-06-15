@@ -1,0 +1,64 @@
+<!--
+    Psuedo Code 
+    1. HTML frame  - Head and body
+    2. Header/jumbotron? - something fantasicly 80s
+    3. Body 
+        a. set background color
+        b. section 
+            1. header that appears only when a band name is guessed
+            2. div1 - appears on left and shows band picture
+            3. div 2 - appears on right and contains rest of infomation
+                a. 
+
+-->
+
+<!DOCTYPE <!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <title>Word Game</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="game.js"></script>
+</head>
+
+<body>
+    <header>
+        <img src="assets/images/Gibson_ES-175.png" alt="header image" />
+        <h1>WORD GAME</h1>
+        <p>Blues Addition</p>
+    </header>
+
+    <div>
+        <!--this header will appear with the band name only if the band name is guessed-->
+        <h1>band name</h1>
+    </div>
+
+<!--The Section below will have two divs in it side by side-->
+    <section>
+    
+        <!--Left side div will have picture that starts with a basic image and will change to a band if the word on the right hand side of the screen is guessed-->
+        <div>
+            <img src=""/>
+        </div>
+        
+        <!--Right Side div - calling it a section b/c multiple divs inside-->
+        <section>
+            <div>
+                <p>Press Any Key to Get Started!</p>
+                <p>Wins <!--plus the number of wins--></p>
+
+                <p>Current Word</p>
+                <p> <!--this will show the number of open letters available with placeholders--></p>
+            </div>
+
+            <div>
+                <p>Number of Guesses Remaining</p>
+                <p> <!--actual number of guesses--></p>
+                <p>Letters Already Guessed</p>
+                <p> <!--actual letters guesses separated by commas--></p>
+            </div>
+        </section>
+    </section>
+</body>
+
+</html>
